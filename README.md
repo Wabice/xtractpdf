@@ -1,11 +1,11 @@
 xtractpdf
 =========
 
-XTRACT PDF 
+# XtractPDF 
 
-1. Introduction
+## 1. Introduction
 
-a. About XtractPDF
+### 1.1 About XtractPDF
 
 XtractPDF is a tool for getting information out of PDF articles and curating it.  It automatically
 attempts to extract and classify content into structured data, but also provides a handy interface
@@ -15,7 +15,7 @@ JATS-XML (http://dtd.nlm.nih.gov).
 XtractPDF currently acts as a client to PDFX (http://pdfx.cs.man.ac.uk)
 for automatic conversion, but can be extended to support other libraries and APIs.
 
-b. Technologies
+### 1.2 Technologies
 
 XtractPDF is built entirely on open source technologies (with the exception of PDFX):
 
@@ -32,14 +32,14 @@ XtractPDF is built entirely on open source technologies (with the exception of P
 - Twitter Bootstrap
 - Fontawesome
 
-c. Author
+### 1.3 Author
 
 XtractPDF was written by Casey McLaughlin (http://caseymclaughlin.com) and is actively maintained 
 by Mike Wabiszewski (http://wabice.com) at the iDigInfo Institute (http://idiginfo.org) at Florida 
 State University (http://fsu.edu) for work on projects related to the Jailbreaking the PDF 
 (http://pdfjailbreak.com) collaboration.
 
-2. Requirements (in recommended order of install):
+## 2. Requirements (in recommended order of install):
 
 - Apache2 (sudo apt-get install apache2)
     NOTE: XtractPDF utilizes Apache's mod_rewrite engine.  If you have not done so yet, you will need to enable mod_rewrite
@@ -65,12 +65,12 @@ State University (http://fsu.edu) for work on projects related to the Jailbreaki
 
 - Composer (http://getcomposer.org/doc/00-intro.md#globally) using a Global install
 
-Optional:
+### Optional:
 
 - Git (sudo apt-get install git)
     Having the Git source control solution will simplify acquisition of all files through a single clone operation.
 
-3. Installation:
+## 3. Installation:
 
     Before proceeding: verify that all requirements mentioned in the previous section have been satisfied.
 
