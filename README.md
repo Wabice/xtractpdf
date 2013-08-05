@@ -1,7 +1,6 @@
-xtractpdf
+XtractPDF
 =========
 
-# XtractPDF 
 
 ## 1. Introduction
 
@@ -39,7 +38,9 @@ by Mike Wabiszewski (http://wabice.com) at the iDigInfo Institute (http://idigin
 State University (http://fsu.edu) for work on projects related to the Jailbreaking the PDF 
 (http://pdfjailbreak.com) collaboration.
 
-## 2. Requirements (in recommended order of install):
+## 2. Prerequisites:
+
+### Required (in recommended order of install):
 
 - Apache2 (sudo apt-get install apache2)
     NOTE: XtractPDF utilizes Apache's mod_rewrite engine.  If you have not done so yet, you will need to enable mod_rewrite
@@ -72,18 +73,18 @@ State University (http://fsu.edu) for work on projects related to the Jailbreaki
 
 ## 3. Installation:
 
-    Before proceeding: verify that all requirements mentioned in the previous section have been satisfied.
+Before proceeding: verify that all requirements mentioned in the previous section have been satisfied.
 
-    1. If you have Git installed, you can simply run "git clone https://github.com/idiginfo/xtractpdf.git".
-       Otherwise you can download the entire zip package and unpack all the files into a directory of your choosing.
+1. If you have Git installed, you can simply run "git clone https://github.com/idiginfo/xtractpdf.git".
+   Otherwise you can download the entire zip package and unpack all the files into a directory of your choosing.
 
-    2. In your newly placed XtractPDF directory, you must have the log and uploads directory set with read and write permissions 
-       for everybody in order for XtractPDF to process uploaded files and to write logs.
+2. In your newly placed XtractPDF directory, you must have the log and uploads directory set with read and write permissions 
+   for everybody in order for XtractPDF to process uploaded files and to write logs.
 
-    2. Change directory to the XtractPDF working directory, then change directory to app.  Run "composer install".  If all of 
-       your dependencies are configured properly, Composer will download all required packages necessary to run XtractPDF.  Wait
-       until Composer finishes installing all packages before proceeding.
+3. Change directory to the XtractPDF working directory, then change directory to app.  Run "composer install".  If all of 
+   your dependencies are configured properly, Composer will download all required packages necessary to run XtractPDF.  Wait
+   until Composer finishes installing all packages before proceeding.
 
-    3. Copy config/config.yml.dist to config/config.yml and verify that all settings match your environment's requirements.
+4. Copy config/config.yml.dist to config/config.yml and verify that all settings match your environment's requirements.
 
-    4. You are ready to run the app.  On your web browser navigate to the URL of your freshly installed XtractPDF.
+5. You are ready to run the app.  On your web browser navigate to the URL of your freshly installed XtractPDF.
