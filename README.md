@@ -48,7 +48,7 @@ State University (http://fsu.edu) for work on projects related to the Jailbreaki
 
 - PHP 5.3+ with PEAR (sudo apt-get install php5 php-pear)
 
-- Make (apt-get install make)
+- Make (sudo apt-get install make)
     Required in order for PECL to build the PHP-mongo libraries
 
 - PHP Mongo PECL Extension (sudo pecl install mongo)
